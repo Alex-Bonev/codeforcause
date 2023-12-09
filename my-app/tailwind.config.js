@@ -8,6 +8,7 @@ export default {
         "secondary": "var(--secondary)",
         "background": "var(--background)",
         "text": "var(--text)",
+        "accent": "var(--accent)",
         // #004ba8
       },
     },
