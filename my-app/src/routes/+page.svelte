@@ -1,26 +1,13 @@
 <script>
   import { goto } from '$app/navigation';
+	import { Heart, Smartphone } from 'lucide-svelte';
 
 </script>
 
-<div class="grid grid-cols-7" style="background-image: url('data:image/svg+xml,<svg id=\'patternId\' width=\'100%25\' height=\'100%25\' xmlns=\'http://www.w3.org/2000/svg\'><defs><pattern id=\'a\' patternUnits=\'userSpaceOnUse\' width=\'20\' height=\'20\' patternTransform=\'scale(2) rotate(0)\'><rect x=\'0\' y=\'0\' width=\'100%25\' height=\'100%25\' fill=\'hsla(235, 100%, 98%, 1)\'/><path d=\'M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z\' stroke-width=\'1\' stroke=\'hsla(259, 52%, 59%, 1)\' fill=\'none\'/></pattern></defs><rect width=\'800%25\' height=\'800%25\' transform=\'translate(0,0)\' fill=\'url(%23a)\'/></svg>');">
+<div class="flex flex-col overflow-hidden h-screen" style="background-image: url('data:image/svg+xml,<svg id=\'patternId\' width=\'100%25\' height=\'100%25\' xmlns=\'http://www.w3.org/2000/svg\'><defs><pattern id=\'a\' patternUnits=\'userSpaceOnUse\' width=\'20\' height=\'20\' patternTransform=\'scale(2) rotate(0)\'><rect x=\'0\' y=\'0\' width=\'100%25\' height=\'100%25\' fill=\'hsla(235, 100%, 98%, 1)\'/><path d=\'M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z\' stroke-width=\'1\' stroke=\'hsla(259, 52%, 59%, 1)\' fill=\'none\'/></pattern></defs><rect width=\'800%25\' height=\'800%25\' transform=\'translate(0,0)\' fill=\'url(%23a)\'/></svg>');">
   <div class="h-screen flex flex-col col-span-3">
     
     <div class="flex-1 w-full">
-      <div class="border-2 border-secondary bg-white my-4 py-8 h-24 w-[95%] mx-auto flex justify-evenly backdrop-blur-[2px] rounded-full">
-        <div>
-          About Us
-        </div>
-        <div>
-          How to use
-        </div>
-        <div>
-          Github
-        </div>
-        <div>
-          Devpost
-        </div>
-      </div>
       <div class="animate-text my-16 bg-white border-4 border-secondary w-[90%] h-80 mx-auto grid place-items-center rounded-3xl">
         <div class="text-justify w-[26.5rem] text-secondary">
           <h1 class="text-7xl font-bold uppercase">
@@ -44,14 +31,16 @@
   </div>
 
 
-  <div class="h-screen flex flex-col col-span-4">
+  <div class="h-[100vh] flex flex-col col-span-4">
     <div class="h-44 grid place-items-center">
-      <div class="uppercase text-center font-bold text-6xl text-secondary bg-white border-4 border-secondary rounded-2xl p-2">
-        Stem Made Fun
+      <div class="uppercase text-center font-bold text-6xl text-secondary bg-white border-4 border-secondary rounded-2xl p-6">
+        A Project For StemMadeFun
       </div>
     </div>
     <div class="bg-[#9278ca] flex-1 rounded-lg">
-      b
+      <!-- <div class="text-secondary absolute left-[55%] top-[85%] scale-[8] rotate-12">
+        <Heart />
+      </div> -->
     </div>
   </div>
 </div>
